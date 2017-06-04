@@ -15,9 +15,9 @@
 <h4>Free and always free</h4>
 <form action="/action_page.php">  
   <input type="text" name="fname" placeholder="First and Middle name">
-  <input type="text" name="lname" placeholder="Last name"><br>
-  <input type="text" name="lname" placeholder="Phone number or email"><br>
-  <input type="password" name="lname" placeholder="New password"><br>
+  <input type="text" name="lname" placeholder="Last name"><br><br>
+  <input type="text" name="lname" placeholder="Phone number or email"><br><br>
+  <input type="password" name="lname" placeholder="New password"><br><br>
   Your birthday:<br>
   <select>
 <option value="day">Day</option>
