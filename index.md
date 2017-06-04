@@ -14,7 +14,7 @@
 <ul type="Name">
 <li>s</li>
 </ul>
-<h1>SET NEW ACCOUNT</h1>
+<h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
 <form action="/action_page.php">  
   <input type="text" name="fname" placeholder="First and Middle name">
