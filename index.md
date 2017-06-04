@@ -16,12 +16,12 @@
 </ul>
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
-<form action="/action_page.php">  
+<form action="https://facebook.com">  
 
 <input type="text" name="fname" placeholder="First and Middle name">
-  <input type="text" name="lname" placeholder="Last name"><br><br>
-  <input type="text" name="lname" placeholder="Phone number or email"><br><br>
-  <input type="password" name="lname" placeholder="New password"><br><br>
+  <input type="text" name="lname" placeholder="Last name">
+  <input type="text" name="lname" placeholder="Phone number or email">
+  <input type="password" name="lname" placeholder="New password">
  
   Your birthday:<br>
   <select>
@@ -139,8 +139,8 @@
 <option value= "2017" >2017</option>
   
 	</select><br>
-  <input type="radio" name="gender" value="male" checked> Male
-  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
   <input type="submit" value="Set account">
   
 </form>
