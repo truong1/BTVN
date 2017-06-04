@@ -4,7 +4,7 @@
 <style>
 	section {
       position: relative;
-      background: url(http://baotreonline.com/wp-content/uploads/2015/06/content_kien-thuc-pho-thong_quoc-ky-doc-dao.jpg);
+      background: url(http://topanhdep.net/hinh-nen-iphone-mau-den-hong-tim-xanh-trang-dep-nhat.html);
       width:1250px;
       height:600px
     }
