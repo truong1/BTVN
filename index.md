@@ -17,14 +17,29 @@
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
 <form action="https://facebook.com">  
-
-<input type="text" name="fname" placeholder="First and Middle name">
-  <input type="text" name="lname" placeholder="Last name">
-  <input type="text" name="lname" placeholder="Phone number or email">
-  <input type="password" name="lname" placeholder="New password">
- 
-  Your birthday:<br>
-  <select>
+<table>
+<tr>
+	<th><input type="text" name="fname" placeholder="First and Middle name"></th>
+	<th colspan="2"><input type="text" name="lname" placeholder="Last name"></th>
+	<th></th>
+</tr>
+<tr>
+	<td><input type="text" name="emailophone" placeholder="Phone number or email"></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td><input type="password" name="password" placeholder="New password"></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>Your birthday:</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td><select>
 <option value="day">Day</option>
 	<option value="1">1</option>
   	<option value="2">2</option>
@@ -57,8 +72,8 @@
 	<option value="29">29</option>
 	<option value="30">30</option>
 	<option value="31">31</option>
-	</select>
-<select>
+	</select></td>
+	<td><select>
  <option value="month">Month</option>
 
 	<option value="1">1</option>
@@ -73,8 +88,8 @@
 	<option value="10">10</option>
 	<option value="11">11</option>
 	<option value="12">12</option>
-	</select>
-<select>
+	</select></td>
+	<td><select>
 <option value="year">Year</option>
 	
 <option value= "1958" >1958</option>
@@ -138,10 +153,20 @@
 <option value= "2016" >2016</option>
 <option value= "2017" >2017</option>
   
-	</select><br>
-  <input type="radio" name="gender" value="male"> Male
-  <input type="radio" name="gender" value="female"> Female
-  <input type="submit" value="Set account">
+	</select></td>
+</tr>
+<tr>
+	<td><input type="radio" name="gender" value="male"> Male</td>
+	<td><input type="radio" name="gender" value="female"> Female</td>
+	<td></td>
+</tr>
+<tr>
+	<td> <input type="submit" value="Set account"></td>
+	<td></td>
+	<td></td>
+</tr>
+  
+  </table>
   
 </form>
 
