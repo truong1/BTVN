@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head><title>BTVN B1</title>
 <style>
@@ -144,8 +144,4 @@
 
 </head>
   
-<body>
 
-
-</body>
-</html>
