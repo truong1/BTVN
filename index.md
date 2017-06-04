@@ -18,6 +18,7 @@
 
 
 	<input type="text" name="fname" placeholder="First and Middle name">
+	
 	<input type="text" name="lname" placeholder="Last name"><br><br>
 	
 
@@ -148,6 +149,10 @@
 	
 
 	 <input type="submit" value="Set account">
+	 <script>
+	 if (fname = "" or lname = "" or emailophone = "" or ) {
+	 	
+	 </script>
 	
 
   
