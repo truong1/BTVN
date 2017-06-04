@@ -20,7 +20,7 @@
 <table>
 <tr>
 	<th><input type="text" name="fname" placeholder="First and Middle name"></th>
-	<th colspan="0"><input type="text" name="lname" placeholder="Last name"></th>
+	<th><input type="text" name="lname" placeholder="Last name"></th>
 	<th></th>
 </tr>
 <tr>
