@@ -150,7 +150,7 @@
 </form>	
 <button onclick="setaccount()">SET ACCOUNT</button>
 	<script>
-	function myFunction() {
+	function setaccount() {
     var greeting;
     var time = new Date().getHours();
     if (time < 10) {
