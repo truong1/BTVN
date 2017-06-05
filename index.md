@@ -14,6 +14,12 @@
 <a href="https://facebook.com">Set new facebook account</a>
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
+ <script>
+	 var y = "set account successful"
+	 function setaccount() {
+		document.getElementById("demo").innerHTML = y
+		}
+</script>
 <form action="setaccount()">
 
 	<input type="text" name="fname" placeholder="First and Middle name">
@@ -150,12 +156,7 @@
 	 
 </form>	
 
-   <script>
-	 var y = "set account successful"
-	 function setaccount() {
-		document.getElementById("demo").innerHTML = y
-		}
-	</script>
+  
 
 
 
