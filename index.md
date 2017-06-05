@@ -15,7 +15,7 @@
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
  
-<form action="setaccount()">
+<form >
 
 	<input type="text" name="fname" placeholder="First and Middle name">
 	
