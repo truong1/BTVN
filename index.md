@@ -14,7 +14,7 @@
 <a href="https://facebook.com">Set new facebook account</a>
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
-<form action="setaccount()">  
+<form action="https://facebook.com">  
 
 
 	<input type="text" name="fname" placeholder="First and Middle name">
@@ -148,12 +148,12 @@
 	<input type="radio" name="gender" value="female"> Female<br>
 	
 
-	 <input type="submit" value="Set account">
+	 <button onclick="setaccount()">Try it</button>
 	 <script>
+	 var x = 
 	 function setaccount() {
-	 if (fname = "" or lname = "" or emailophone = "" or password = "" ) {
-	 	}
-		}
+		if (
+	}
 	</script>
 	
 
