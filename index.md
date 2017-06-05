@@ -1,15 +1,10 @@
 
 <html>
 <head><title>BTVN B1</title>
-<style>
-	section {
-      position: relative;
-      background: url(http://topanhdep.net/hinh-nen-iphone-mau-den-hong-tim-xanh-trang-dep-nhat.html);
-      width:1250px;
-      height:600px
-    }
-</style>
-<section>
+
+
+</head>
+<body>
 <p>Projected by truong1. Thanks for github to helping me</p>
 <a href="https://facebook.com">Set new facebook account</a>
 <h2>SET NEW ACCOUNT</h2>
@@ -154,14 +149,5 @@
 }
 	</script>
 </form>	
-
-
-  
-
-
-
-</section>
-
-</head>
-  
+</body>
 
