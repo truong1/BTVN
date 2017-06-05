@@ -10,7 +10,7 @@
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
  
-<form >
+<form action="\action_page.php">
 
 	<input type="text" name="fname" placeholder="First and Middle name">
 	
@@ -142,12 +142,8 @@
 	<input type="radio" name="gender" value="male"> Male
 	<input type="radio" name="gender" value="female"> Female<br>
 	<input type="submit" value="setaccount">
-	<script>
-	function setaccount() {
-  var x = 1;
-  document.getElementById("demo").innerHTML = x;
-}
-	</script>
-</form>	
+	
+</form>
+<p>afa</p>	
 </body>
 
