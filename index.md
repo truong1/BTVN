@@ -147,15 +147,15 @@
 	<input type="radio" name="gender" value="female"> Female<br>
 	<input type="submit" value="SET ACCOUNT">
 
-	  <script>
+	 
+</form>	
+
+   <script>
 	 var y = "set account successful"
 	 function setaccount() {
 		document.getElementById("demo").innerHTML = y
 		}
 	</script>
-</form>	
-
-  
 
 
 
