@@ -150,7 +150,7 @@
 	<script>
 	 function setaccount() {
 	 var y = "set account successful";
-		document.getElementById("demo").innerHTML = y
+	document.getElementById("demo").innerHTML = y;
 		}
 	</script>
 </form>	
