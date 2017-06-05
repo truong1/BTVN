@@ -149,8 +149,8 @@
 	
 
 	 <button onclick="setaccount()">Set account</button>
+	 </form>
 	 <script>
-	
 	 var y = "set account successful"
 	 function setaccount() {
 		document.getElementById("demo").innerHTML = y
@@ -159,7 +159,7 @@
 	
 
   
-</form>
+
 
 
 </section>
