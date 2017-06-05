@@ -146,19 +146,11 @@
 
 	<input type="radio" name="gender" value="male"> Male
 	<input type="radio" name="gender" value="female"> Female<br>
-	<button onclick="setaccount()">SET ACCOUNT</button>
+	<input type="submit" value="setaccount">
 	<script>
 	function setaccount() {
-    var greeting;
-    var time = new Date().getHours();
-    if (time < 10) {
-        greeting = "Good morning";
-    } else if (time < 20) {
-        greeting = "Good day";
-    } else {
-        greeting = "Good evening";
-    }
-document.getElementById("demo").innerHTML = greeting;
+  var x = 1;
+  document.getElementById("demo").innerHTML = x;
 }
 	</script>
 </form>	
