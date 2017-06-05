@@ -150,13 +150,11 @@
 
 	 <button onclick="setaccount()">Set account</button>
 	 <script>
-	 var x = fname()
-	 var y;
+	
+	 var y = "set account successful"
 	 function setaccount() {
-		if ( x == "")
-		y = "set accoint successfully"
-	}
-	document.getElementById("demo").innerHTML = y
+		document.getElementById("demo").innerHTML = y
+		}
 	</script>
 	
 
