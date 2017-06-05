@@ -14,7 +14,7 @@
 <a href="https://facebook.com">Set new facebook account</a>
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
-<form action="https://facebook.com">  
+<form action="setaccount()">  
 
 
 	<input type="text" name="fname" placeholder="First and Middle name">
