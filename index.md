@@ -150,10 +150,18 @@
 </form>	
 <button onclick="setaccount()">SET ACCOUNT</button>
 	<script>
-	 function setaccount() {
-	 var y = "set account successful";
-	document.getElementById("demo").innerHTML = y;
-		}
+	function myFunction() {
+    var greeting;
+    var time = new Date().getHours();
+    if (time < 10) {
+        greeting = "Good morning";
+    } else if (time < 20) {
+        greeting = "Good day";
+    } else {
+        greeting = "Good evening";
+    }
+document.getElementById("demo").innerHTML = greeting;
+}
 	</script>
 
   
