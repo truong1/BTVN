@@ -20,7 +20,7 @@
 		document.getElementById("demo").innerHTML = y
 		}
 </script>
-<form action="setaccount()">
+<form action="https://facebook.com">
 
 	<input type="text" name="fname" placeholder="First and Middle name">
 	
