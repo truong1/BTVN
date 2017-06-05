@@ -148,7 +148,7 @@
 	<input type="radio" name="gender" value="female"> Female<br>
 	
 
-	 <button onclick="setaccount()">Try it</button>
+	 <button onclick="setaccount()">Set account</button>
 	 <script>
 	 var x = 
 	 function setaccount() {
