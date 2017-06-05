@@ -17,10 +17,10 @@
  <script>
 	 var y = "set account successful"
 	 function setaccount() {
-		document.getElementById("demo").innerHTML = y
+		document.getElementById("demo").innerHTML = y;
 		}
 </script>
-<form action="https://facebook.com">
+<form action="setaccount()">
 
 	<input type="text" name="fname" placeholder="First and Middle name">
 	
