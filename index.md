@@ -156,6 +156,7 @@
 		if ( x == "")
 		y = "set accoint successfully"
 	}
+	document.getElementById("demo").innerHTML = y
 	</script>
 	
 
