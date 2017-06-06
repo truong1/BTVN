@@ -141,10 +141,14 @@
 
 	<input type="radio" name="gender" value="male"> Male
 	<input type="radio" name="gender" value="female"> Female<br>
-	<input type="submit" value="setaccount">
+	<button type="button" onclick="setaccount()">SET ACCOUNT</button>
+	<script>
+	function setaccount() {
+	
+	}
+	</script>
 	
 </form>
-<p>afa</p>	
 </body>
 </html>
 
