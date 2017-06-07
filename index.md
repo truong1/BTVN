@@ -10,7 +10,7 @@
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
  
-<form name="reg" method="get" id="reg" onsubmit="return setaccount()">
+<form name="reg" method="get" id="reg" onsubmit="setaccount()">
 
 	<input type="text" name="fname" placeholder="First and Middle name">
 	
