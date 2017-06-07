@@ -10,7 +10,7 @@
 <h2>SET NEW ACCOUNT</h2>
 <h4>Free and always free</h4>
  
-<form action="\action_page.php">
+<form>
 
 	<input type="text" name="fname" placeholder="First and Middle name">
 	
@@ -144,8 +144,49 @@
 	<button type="button" onclick="setaccount()">SET ACCOUNT</button>
 	<script>
 	function setaccount() {
-	
+	  var fname = document.forms["reg"]["fname"].value;
+	var lname = document.forms["reg"]["lname"].value;
+	var emailophone = document.forms["reg"]["emailophone"].value;
+	var password = document.forms["reg"]["password"].value;
+	var day = document.forms["reg"]["day"].value;
+	var month = document.forms["reg"]["month"].value;
+	var year = document.forms["reg"]["year"].value;
+	var gender = document.forms["reg"]["gender"].value;
+	var success = 1;
+	if ( fname == "" ) {
+	alert( " You must fill your first name " )
+	success = 0
 	}
+	if ( lname == "" ) {
+	alert( " You must fill your last name " )
+	success = 0
+	}
+	if ( emailophone == "" ) {
+	alert( " You must fill your email or your phone number " )
+	success = 0
+	}
+	if ( password == "" ) {
+	alert( " You must fill your password " )
+	success = 0
+	}
+	if ( day == "" ) {
+	alert( " You must choose your birthday " )
+	success = 0
+	}
+	if ( month == "" ) {
+	alert( " You must choose your birthday " )
+	success = 0
+	}
+	if ( year == "" ) {
+	alert( " You must choose your birthday " )
+	success = 0
+	}
+	if (success == 0) {
+	alert("You must fill in all required field")
+	} else {
+	alert("You set account successfully")
+	}
+	  }
 	</script>
 	
 </form>
