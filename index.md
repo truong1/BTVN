@@ -145,14 +145,14 @@
 	<p id="setaccount"></p>
 	<script>
 	function setaccount() {
-	  var fname = document.forms["reg"]["fname"].value;
-	var lname = document.forms["reg"]["lname"].value;
-	var emailophone = document.forms["reg"]["emailophone"].value;
-	var password = document.forms["reg"]["password"].value;
-	var day = document.forms["reg"]["day"].value;
-	var month = document.forms["reg"]["month"].value;
-	var year = document.forms["reg"]["year"].value;
-	var gender = document.forms["reg"]["gender"].value;
+	var fname = document.forms[reg][' fname '].value;
+    	var lname = document.forms[reg][' lname '].value;
+    	var emailophone = document.forms[reg][' emailophone '].value;
+    	var password = document.forms[reg][' password '].value;
+        var day = document.forms[reg][' day '].value;
+    	var month = document.forms[reg][' month '].value;
+    	var year = document.forms[reg][' year '].value;
+        var gender = document.forms[reg][' gender '].value;
 	var tfname = "You must fill your first name";
 	var tlname = "You must fill your last name";
 	var temailophone = "You must fill your email or your phone number";
@@ -161,34 +161,34 @@
 	var tmonth = "You must choose your birthday";
 	var tyear = "You must choose your birthday";
 	var success = 1;
-	if (fname == "") {
-	document.getElementById("setaccount").innerHTML = tfname
-	success = 0
+	  if ( fname === "" ) {
+	document.getElementById( " setaccount " ).innerHTML = tfname ;
+	success = 0 ;
 	}
-	if (lname == "") {
-	document.getElementById("setaccount").innerHTML = tlname
-	success = 0
+	if ( lname === "" ) {
+	document.getElementById( " setaccount " ).innerHTML = tlname ;
+	success = 0 ;
 	}
-	if (emailophone == "") {
-	document.getElementById("setaccount").innerHTML = temailophone
-	success = 0
+	if ( emailophone === "" ) {
+	document.getElementById( " setaccount " ).innerHTML = temailophone ;
+	success = 0 ;
 	}
-	if (password == "") {
-	document.getElementById("setaccount").innerHTML = tpassword
-	success = 0
+	if ( password === "" ) {
+	document.getElementById( " setaccount " ).innerHTML = tpassword ;
+	success = 0 ;
 	}
-	if (day == "") {
-	document.getElementById("setaccount").innerHTML = tday
-	success = 0
+	if ( day === "" ) {
+	document.getElementById( " setaccount " ).innerHTML = tday ;
+	success = 0 ;
 	}
-	if (month == "") {
-	document.getElementById("setaccount").innerHTML = tmonth
-	success = 0
+	if ( month === "" ) {
+	document.getElementById( " setaccount " ).innerHTML = tmonth ;
+	success = 0 ;
 	}
-	if (year == "") {
-	document.getElementById("setaccount").innerHTML = tyear
-	success = 0
-	}
+if ( year === "" ) {
+document.getElementById( " setaccount " ).innerHTML = tyear ;
+success = 0 ;
+}
 	</script>
 	
 </form>
