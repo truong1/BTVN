@@ -153,41 +153,42 @@
 	var month = document.forms["reg"]["month"].value;
 	var year = document.forms["reg"]["year"].value;
 	var gender = document.forms["reg"]["gender"].value;
+	var tfname = "You must fill your first name";
+	var tlname = "You must fill your last name";
+	var temailophone = "You must fill your email or your phone number";
+	var tpassword = "You must fill your password";
+	var tday = "You must choose your birthday";
+	var tmonth = "You must choose your birthday";
+	var tyear = "You must choose your birthday";
 	var success = 1;
-	if ( fname == "" ) {
-	alert( " You must fill your first name " )
+	if (fname == "") {
+	document.getElementById("setaccount").innerHTML = tfname
 	success = 0
 	}
-	if ( lname == "" ) {
-	alert( " You must fill your last name " )
+	if (lname == "") {
+	document.getElementById("setaccount").innerHTML = tlname
 	success = 0
 	}
-	if ( emailophone == "" ) {
-	alert( " You must fill your email or your phone number " )
+	if (emailophone == "") {
+	document.getElementById("setaccount").innerHTML = temailophone
 	success = 0
 	}
-	if ( password == "" ) {
-	alert( " You must fill your password " )
+	if (password == "") {
+	document.getElementById("setaccount").innerHTML = tpassword
 	success = 0
 	}
-	if ( day == "" ) {
-	alert( " You must choose your birthday " )
+	if (day == "") {
+	document.getElementById("setaccount").innerHTML = tday
 	success = 0
 	}
-	if ( month == "" ) {
-	alert( " You must choose your birthday " )
+	if (month == "") {
+	document.getElementById("setaccount").innerHTML = tmonth
 	success = 0
 	}
-	if ( year == "" ) {
-	alert( " You must choose your birthday " )
+	if (year == "") {
+	document.getElementById("setaccount").innerHTML = tyear
 	success = 0
 	}
-	if (success == 0) {
-	alert("You must fill in all required field")
-	} else {
-	alert("You set account successfully")
-	}
-	  }
 	</script>
 	
 </form>
