@@ -1,8 +1,6 @@
 
 <html>
 <head><title>BTVN B1</title>
-
-
 </head>
 <body>
 <p>Projected by truong1. Thanks for github to helping me</p>
@@ -11,21 +9,13 @@
 <h4>Free and always free</h4>
  
 <form name="reg" id="reg" onsubmit="setaccount()">
-
 	<input type="text" name="fname" placeholder="First and Middle name">
-	
 	<input type="text" name="lname" placeholder="Last name"><br><br>
-	
-
 	<input type="text" name="emailophone" placeholder="Phone number or email"><br><br>
-	
-
 	<input type="password" name="password" placeholder="New password"><br><br>
-	
-
 	Your birthday:<br><br>
 	<select>
-<option value="day">Day</option>
+	<option value="day">Day</option>
 	<option value="1">1</option>
   	<option value="2">2</option>
   	<option value="3">3</option>
@@ -59,8 +49,7 @@
 	<option value="31">31</option>
 	</select>
 	<select>
- <option value="month">Month</option>
-
+	<option value="month">Month</option>
 	<option value="1">1</option>
   	<option value="2">2</option>
   	<option value="3">3</option>
@@ -76,7 +65,6 @@
 	</select>
 	<select>
 	<option value="year">Year</option>
-	
 	<option value= "1958" >1958</option>
 	<option value= "1959" >1959</option>
 	<option value= "1960" >1960</option>
@@ -152,7 +140,7 @@
     	var month = document.forms[reg][' month '].value;
     	var year = document.forms[reg][' year '].value;
         var gender = document.forms[reg][' gender '].value;
-	var tfname = "You must fill your first name";
+	var tfname = "";
 	var tlname = "You must fill your last name";
 	var temailophone = "You must fill your email or your phone number";
 	var tpassword = "You must fill your password";
@@ -160,34 +148,28 @@
 	var tmonth = "You must choose your birthday";
 	var tyear = "You must choose your birthday";
 	var success = 1;
-	  if ( fname === "" ) {
-	document.getElementById( " setaccount " ).innerHTML = tfname ;
+	if ( fname === "" ) {
+	alert("You must fill your first name");
 	success = 0 ;
-	}
-	if ( lname === "" ) {
-	document.getElementById( " setaccount " ).innerHTML = tlname ;
+	} else if ( lname === "" ) {
+	alert("You must fill your last name");
 	success = 0 ;
-	}
-	if ( emailophone === "" ) {
-	document.getElementById( " setaccount " ).innerHTML = temailophone ;
+	} else if ( emailophone === "" ) {
+	alert("You must fill your email or your phone number");
 	success = 0 ;
-	}
-	if ( password === "" ) {
-	document.getElementById( " setaccount " ).innerHTML = tpassword ;
+	} else if ( password === "" ) {
+	alert("You must fill your password");
 	success = 0 ;
-	}
-	if ( day === "" ) {
-	document.getElementById( " setaccount " ).innerHTML = tday ;
+	} else if ( day === "" ) {
+	alert("You must choose your birthday");
 	success = 0 ;
-	}
-	if ( month === "" ) {
-	document.getElementById( " setaccount " ).innerHTML = tmonth ;
+	} else if ( month === "" ) {
+	alert("You must choose your birthday");
 	success = 0 ;
-	}
-	if ( year === "" ) {
-	document.getElementById( " setaccount " ).innerHTML = tyear ;
+	} else if ( year === "" ) {
+	alert("You must choose your birthday") ;
 	success = 0 ;
-	}
+	} 
 	if (success === 0) {
         document.getElementById("setaccount").innerHTML = "You must fill all required field";
     	}
