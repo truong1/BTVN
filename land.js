@@ -54,7 +54,7 @@ farming.Land = function(gameObj, playerObj) {
     });
     
     //growing plants
-    dt = 1000;
+    dt = 1000; //TG mặc định
     lime.scheduleManager.scheduleWithDelay(function() {
         if(this.state == this.GROWING) {            
             if(this.ripeTime <= 0) {
@@ -80,7 +80,7 @@ farming.Land = function(gameObj, playerObj) {
 goog.inherits(farming.Land,lime.Sprite);
 
 //states
-farming.Land.prototype.EMPTY = 0; //Emotion empty
-farming.Land.prototype.PLOWED = 1;//Emotion 
-farming.Land.prototype.GROWING = 2;
-farming.Land.prototype.READY = 3;
+farming.Land.prototype.EMPTY = 0; //Emotion đất trống
+farming.Land.prototype.PLOWED = 1;//Emotion đất đã cuốc
+farming.Land.prototype.GROWING = 2;// Emotion cây mầm
+farming.Land.prototype.READY = 3;// Emotion quả thu hoạch
