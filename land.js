@@ -80,7 +80,7 @@ farming.Land = function(gameObj, playerObj) {
 goog.inherits(farming.Land,lime.Sprite);
 
 //states
-farming.Land.prototype.EMPTY = 0;
-farming.Land.prototype.PLOWED = 1;
+farming.Land.prototype.EMPTY = 0; //Emotion empty
+farming.Land.prototype.PLOWED = 1;//Emotion 
 farming.Land.prototype.GROWING = 2;
 farming.Land.prototype.READY = 3;
