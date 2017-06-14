@@ -57,8 +57,8 @@ farming.Land = function(gameObj, playerObj) {
     dt = 1000; //TG mặc định
     lime.scheduleManager.scheduleWithDelay(function() {
         if(this.state == this.GROWING) {            
-            if(this.ripeTime <= 0) {
-                this.state = this.READY;
+            if(this.ripeTime <= 0) { //nếu tg đã hết
+                this.state = this.READY; //thì ô này là ô cây trồng đã chọn
                 this.setFill('images/'+gameObj.crops[this.crop].image);
             }
             else {
