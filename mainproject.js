@@ -6,5 +6,7 @@ goog.require('lime.Layer')
 goog.require('TIC.Land')
 
 
-TIC-TAC_TOE.start = ()
-  var GmObject
+tictactoe.start = ()
+  var GmObject = {
+    width: 320,
+    height: 500,
