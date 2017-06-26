@@ -1,9 +1,9 @@
-goog.provide('TIC-TAC-TOE')
-goog.require('lime.Referee')
-goog.require('lime.Player_X')
-goog.require('lime.Player_O')
-goog.require('lime.Layer')
-goog.require('TIC.Land')
+goog.provide('TIC-TAC-TOE');
+goog.require('lime.Referee');
+goog.require('lime.Player_X');
+goog.require('lime.Player_O');
+goog.require('lime.Layer');
+goog.require('TIC.Land');
 
 
 tictactoe.start = funct()
@@ -22,4 +22,6 @@ tictactoe.start = funct()
     turn: 1,
     currentSqrMark: 0
   }
-  ga
+  var PlayerXObj = {
+    turn: 1,
+    currentSqrMark: 0
