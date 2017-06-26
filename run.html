@@ -1,41 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
 <head>
-<title>Run demos</title> 
-<script type="text/javascript" src="../../../closure/closure/goog/base.js"></script>
-<script type="text/javascript">
-    (function(){
-        var match = window.location.href.toString().search(/run=.*$/);
-        
-        if(match==-1){
-            goog.require('goog.dom');
-            test={start: function(){
-            var _allDemos = [
-                'project'
-                ].sort();
-                
-            for(var i=0;i<_allDemos.length;i++){
-                var a = goog.dom.createDom('a',{href:'?run='+_allDemos[i]},_allDemos[i]);
-                document.body.appendChild(a);
-                document.body.appendChild(document.createElement('br'));
-                
-            }
-            }};
-        }
-        else {
-        var testname = window.location.href.substring(match+4);
-        
-        goog.global.document.write('<script type="text/javascript" src="' +testname + '.js"></' + 'script>');
-        }
-        
-    })();
-    
-</script>
-<style type="text/css">
-</style>
-
-
+	<title>farming</title>
+	<script type="text/javascript" src="../closure/closure/goog/base.js"></script>
+	<script type="text/javascript" src="project.js"></script>//nhúng js qua file farming.js
+        <style>
+            .lime-scene {display:block !important;}    
+            body {background-color:black;} // hình nền đen
+        </style>
 </head>
-
-<body onload="test.start()">
-</body>
+<body onload="farming.start()"></body>
+</html>
