@@ -3,6 +3,7 @@ goog.require('lime.Referee');
 goog.require('lime.Player_X');
 goog.require('lime.Player_O');
 goog.require('lime.Layer');
+goog.require('');
 goog.require('TIC.Land');
 
 
@@ -22,6 +23,6 @@ tictactoe.start = funct()
     turn: 1,
     currentSqrMark: 0
   }
-  var PlayerXObj = {
+  var PlayerOObj = {
     turn: 1,
     currentSqrMark: 0
