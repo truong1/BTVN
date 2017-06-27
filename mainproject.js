@@ -7,7 +7,7 @@ goog.require('');
 goog.require('TIC.Land');
 
 
-tictactoe.start = funct()
+tictactoe.start = funct() {
   var GmObj = {
     width: 320,
     height: 500,
@@ -21,8 +21,14 @@ tictactoe.start = funct()
   }
   var PlayerXObj = {
     turn: 1,
+    currentSqrMark: 0,
+  
+  }
+  var PlayerXMark = []
+  var PlayerOObj = {
+    turn: 0,
     currentSqrMark: 0
   }
-  var PlayerOObj = {
-    turn: 1,
-    currentSqrMark: 0
+  var PlayerOMark = []
+  }
+  var Sqrleft = [1;2;3;4;5;6;7;8;9]
