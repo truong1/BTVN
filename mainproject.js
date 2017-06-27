@@ -3,7 +3,7 @@ goog.require('lime.Referee');
 goog.require('lime.Player_X');
 goog.require('lime.Player_O');
 goog.require('lime.Layer');
-goog.require('');
+goog.require('lime.Scene');
 goog.require('TIC.Land');
 
 
@@ -32,3 +32,4 @@ tictactoe.start = funct() {
   var PlayerOMark = []
   }
   var Sqrleft = [1;2;3;4;5;6;7;8;9]
+  
